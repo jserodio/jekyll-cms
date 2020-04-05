@@ -23,7 +23,7 @@ services:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
-    icon: fa-wifi
+    icon: fa-smile
     title: Entrenamiento Personal para gente mayor.
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
