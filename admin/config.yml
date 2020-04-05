@@ -70,10 +70,10 @@ collections:
           - {label: Feature Subtitle, name: feature-subtitle, widget: string}
           - {label: Testimonial Title, name: testimonial-title, widget: string}
           - {label: Testimonial Subtitle, name: testimonial-subtitle, widget: string}
-          - {label: Hotels, name: hotels, widget: number, hint: "This is the animated number that counts up"}
-          - {label: Resturants, name: resturants, widget: number, hint: "This is the animated number that counts up"}
-          - {label: Museums, name: museums, widget: number, hint: "This is the animated number that counts up"}
-          - {label: Minutes, name: minutes, widget: number, hint: "This is the animated number that counts up"}
+          - {label: Pulsaciones, name: pulsaciones, widget: number, hint: "This is the animated number that counts up"}
+          - {label: Kilos, name: kilos, widget: number, hint: "This is the animated number that counts up"}
+          - {label: Clientes, name: clientes, widget: number, hint: "This is the animated number that counts up"}
+          - {label: Minutos, name: minutos, widget: number, hint: "This is the animated number that counts up"}
           - {label: Services Title, name: services-title, widget: string}
           - {label: Services Subtitle, name: services-subtitle, widget: string, hint: "Services can be found in the Global area"}
       - label: "Documents"
