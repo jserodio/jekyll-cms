@@ -69,33 +69,32 @@ custom_head_counterup: true
           <ul class="counter-box clearfix">
             <li>
               <div class="block">
-                <i class="fa fa-home"></i>
-                <h4 class="counter">{{ site.data.home.hotels }}</h4>
-                <span>Hotels</span>
+                <i class="fa fa-heartbeat"></i>
+                <h4 class="counter">{{ site.data.home.pulsaciones }} Pulsaciones</h4>
+                <span>Te ayudo a mantener una vida sana</span>
               </div>
             </li>
             <li>
               <div class="block">
-                <i class="fa fa-beer"></i>
-                <h4 class="counter">{{ site.data.home.resturants }}</h4>
-                <span>Resturants</span>
-              </div>
-            </li>
-            <li>
-              <div class="block">
-                <i class="fa fa-university"></i>
-                <h4 class="counter">{{ site.data.home.museums }}</h4>
-                <span>Museums</span>
+                <i class="fa-line-chart"></i>
+                <h4 class="counter">{{ site.data.home.kilos }} Kg</h4>
+                <span>¿Subiendo de peso? Bajemos esos kilos de más :)</span>
               </div>
             </li>
             <li>
               <div class="block">
                 <i class="fa fa-plane"></i>
-                <h4><span class="counter">{{ site.data.home.minutes }}</span> Minutes</h4>
-                <span>Drive from the Airport</span>
+                <h4><span class="counter">Desde {{ site.data.home.minutos }}</span> Minutos.</h4>
+                <span>Plan personalizado a medida</span>
               </div>
             </li>
-
+            <li>
+              <div class="block">
+                <i class="fa fa-home"></i>
+                <h4 class="counter">{{ site.data.home.clientes }}</h4>
+                <span>Clientes a domicilio</span>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
@@ -103,27 +102,28 @@ custom_head_counterup: true
         <div class="testimonial-carousel">
           <div id="testimonial-slider" class="owl-carousel">
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Shoutout to the {{site.data.business.name}} for
-                such a great demo. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> {{site.data.business.name}} es genial, ¡super
+                divertido!. <i class="fa fa-quote-right" aria-hidden="true"></i></p>
               <div class="user">
                 <img src="img/twitter-user-1.jpg" alt="Pepole">
-                <p><span>Bob Henson</span> via Twitter</p>
+                <p><span>Alba</span> desde Instagram</p>
               </div>
             </div>
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Static sites are security fortresses! <i class="fa fa-quote-right"
-                  aria-hidden="true"></i> </p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Soy cliente asíduo y ha conseguido que me guste el
+                deporte. Totalmente recomendado.
+                <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
               <div class="user">
                 <img src="img/twitter-user-2.jpg" alt="Pepole">
-                <p><span>Clay Risro</span> via Twitter</p>
+                <p><span>Jose</span> desde Facebook</p>
               </div>
             </div>
             <div>
-              <p><i class="fa fa-quote-left" aria-hidden="true"></i> I love not having a CMS to have to update all the
-                time. <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
+              <p><i class="fa fa-quote-left" aria-hidden="true"></i> Me encantan sus clases, Xan es un gran profesor.❤️
+                <i class="fa fa-quote-right" aria-hidden="true"></i> </p>
               <div class="user">
                 <img src="img/twitter-user-3.jpg" alt="Pepole">
-                <p><span>Rose Ray</span> via Twitter</p>
+                <p><span>Robin</span> desde Twitter</p>
               </div>
             </div>
           </div>
@@ -172,8 +172,8 @@ custom_head_counterup: true
   // Counter up
   if ($(".counter").length) {
     $('.counter').counterUp({
-        delay: 10,
-        time: 1000
+      delay: 10,
+      time: 1000
     });
   }
 </script>
