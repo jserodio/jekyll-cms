@@ -18,13 +18,13 @@ services:
   - body: >-
       Corrección de ejercicios, rutinas nuevas, seguimiento, etc todo
       supervisado en tu gimnasio de confianza.
-    icon: fa-ball
+    icon: fa-line-chart
     title: Entrenamiento Personal en gimnasios
   - body: Entrenamiento saludable y ameno hacia la gente que más queremos.
-    icon: fa-face
+    icon: fa-blind
     title: Entrenamiento Personal para gente mayor.
   - body: >-
       Mejorare tus marcas y conseguirás objetivos para lograr tu plaza en las
       oposiciones.
-    icon: fa-arm
+    icon: fa-steam-square
     title: Preparación de Oposiciones
