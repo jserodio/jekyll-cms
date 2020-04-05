@@ -20,9 +20,7 @@ services:
       eiusmod       tempor incididunt
     icon: fa-dumbells
     title: Entrenamiento Personal en gimnasios
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+  - body: Entrenamiento saludable y ameno hacia la gente que más queremos.
     icon: fa-smile
     title: Entrenamiento Personal para gente mayor.
   - body: >-
