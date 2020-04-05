@@ -16,9 +16,9 @@ services:
     icon: fa-table
     title: Nutrición Deportiva y Suplementacion
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
-    icon: fa-dumbells
+      Corrección de ejercicios, rutinas nuevas, seguimiento, etc todo
+      supervisado en tu gimnasio de confianza.
+    icon: fa-gym
     title: Entrenamiento Personal en gimnasios
   - body: Entrenamiento saludable y ameno hacia la gente que más queremos.
     icon: fa-smile
