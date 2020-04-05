@@ -1,13 +1,25 @@
-title: Jekyll with Netlify CMS
-subtitle: 'Static speed, with dynamic content'
+title: Xan Fernandez Roca
+subtitle: Entrenador Personal
 intro-title: Editable Static Sites
 intro-subtitle: Update via a web UI
 intro-body: >-
-  Static sites are fast to get up and running and develop on. They are also
-  **performance beasts** but their biggest downside is non technical users
-  editing content. Adding the Netlify CMS to your Jekyll site means clients can
-  update this site via a Web UI. It is no wordpress or Drupal replacement, but
-  gets the job done.
+  Bienvenido a mi pagina web, me llamo Xan y soy Entrenador Personal. 
+
+
+  Llevo dedicandome al sector del deporte desde hace 10 años, cuando termine mis
+  estudios de TAFAD y continue mi formacion en gimnasios y realizando
+  entrenamientos personales. Tambien continuo mis estudios formandome en Cursos
+  de Suplementacion Deportiva, Entrenamientos Funcionales, Entrenamientos
+  Personales de Alta Intensidad, Lesiones, etc
+
+
+  Si estas interesado/a en mejorar fisicamente, en recuperarte de alguna lesion
+  o que algun familiar se mejore, no dudes en contactar conmigo.
+
+
+
+
+  Xan
 intro-img: /uploads/save_20190516_211624.jpeg
 feature-title: This is Editable!
 feature-subtitle: >-
@@ -21,5 +33,5 @@ hotels: 17
 resturants: '25'
 museums: '100'
 minutes: '12'
-services-title: Service Offered
+services-title: Entrenamiento Personal
 services-subtitle: There is a service.yml that Netlify CMS can edit to change the below
