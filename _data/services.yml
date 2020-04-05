@@ -5,7 +5,7 @@ services:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
-    icon: fa-equal
+    icon: fa-heart
     title: Entrenamiento de Rehabilitación
   - body: Rutinas de entrenamiento para el día a día.
     icon: fa-print
