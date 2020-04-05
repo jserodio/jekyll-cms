@@ -5,7 +5,7 @@ services:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
-    icon: fa-bullhorn
+    icon: fa-health
     title: Entrenamiento de Rehabilitación
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
