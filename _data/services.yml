@@ -1,7 +1,5 @@
 services:
-  - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
+  - body: Desplazamiento por toda la Comunidad de Madrid.
     icon: fa-car
     title: Entrenamiento Personal a domicilio
   - body: >-
