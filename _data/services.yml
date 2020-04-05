@@ -2,7 +2,7 @@ services:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
-    icon: fa-cutlery
+    icon: fa-car
     title: Entrenamiento Personal a domicilio
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
