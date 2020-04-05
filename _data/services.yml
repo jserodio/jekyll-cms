@@ -10,7 +10,7 @@ services:
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
       eiusmod       tempor incididunt
-    icon: fa-plus
+    icon: fa-papper
     title: Tablas de Entrenamiento
   - body: >-
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
