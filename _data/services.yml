@@ -24,7 +24,7 @@ services:
     icon: fa-smile
     title: Entrenamiento Personal para gente mayor.
   - body: >-
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod       tempor incididunt
-    icon: fa-map-signs
+      Mejoraremos tus marcas y conseguiremos objetivos para lograr tu plaza en
+      las oposiciones.
+    icon: fa-police
     title: Preparación de Oposiciones
