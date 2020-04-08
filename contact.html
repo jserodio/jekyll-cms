@@ -16,27 +16,27 @@ headerImage: https://picsum.photos/1600/370
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <h2>Contact our Friendly Staff Today</h2>
+          <h2>Contacta conmigo</h2>
           <form action="/thankyou/" netlify name="contact-form">
             <div class="form-group">
-              <label for="contact-name">Your Name</label>
+              <label for="contact-name">Nombre</label>
               <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Name">
             </div>
             <div class="form-group">
-              <label for="contact-email">Your Email address</label>
+              <label for="contact-email">Dirección de correo</label>
               <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Email">
             </div>
             <div class="form-group">
-              Comments:
+              Información:
               <textarea class="form-control" rows="3"></textarea>
             </div>
             <select class="form-control">
-              <option>General</option>
-              <option>Marketing</option>
-              <option>Billing</option>
-              <option>Service</option>
+              <option>Entrenamientos</option>
+              <option>Precios</option>
+              <option>Disponibilidad</option>
+              <option>Otras consultas</option>
             </select>
-            <div class="radio">
+            <!-- <div class="radio">
               <label>
                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                 Option one
@@ -47,7 +47,7 @@ headerImage: https://picsum.photos/1600/370
                 <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
                 Option two
               </label>
-            </div>
+            </div> -->
             <div class="form-group">
               <div class="checkbox">
                 <label>
@@ -63,7 +63,7 @@ headerImage: https://picsum.photos/1600/370
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <div class="block">
-            <h2>Stop By For A visit</h2>
+            <h2>Contacta conmigo</h2>
             <ul class="address-block">
               <li>
                 <i class="fa fa-map-marker"></i>{{site.data.business.address_full}}
@@ -87,9 +87,11 @@ headerImage: https://picsum.photos/1600/370
             </p>
 
           </div>
-            <div class="google-map">
-              <iframe src="https://www.google.com/maps/embed/v1/place?key={{site.data.business.google_maps_api_key}}&q={{ site.data.business.address_full | url_encode }}" width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+          <div class="google-map">
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?key={{site.data.business.google_maps_api_key}}&q={{ site.data.business.address_full | url_encode }}"
+              width="555" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
