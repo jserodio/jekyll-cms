@@ -1,6 +1,7 @@
 {
-  "top": [{
-      "text": "Home",
+  "top": [
+    {
+      "text": "Inicio",
       "path": "/"
     },
     {
@@ -28,7 +29,8 @@
       "path": "/docs/"
     }
   ],
-  "left": [{
+  "left": [
+    {
       "text": "Home",
       "path": "/"
     },
