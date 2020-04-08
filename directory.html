@@ -11,17 +11,17 @@ custom_head_datatables: true
 
 <div class="container">
   <div class="row">
-    <h3>Entrenadores Personales</h3>
-    <p>Esto es mi plantilla.</p>
+    <h3>Páginas destacadas y canales YouTube recomendados</h3>
+    <p>A continuación, te mostrare las páginas y canales de YouTube con mas importancia para mi empresa.</p>
     <hr>
     <table class="table table-striped dataTable">
       <thead>
         <tr>
-          <td>First Name</td>
-          <td>Last Name</td>
-          <td>Email</td>
-          <td>Gender</td>
-          <td>Department</td>
+          <td>Nombre</td>
+          <td>Tipo</td>
+          <td>Dirección</td>
+          <!-- <td>Gender</td>
+          <td>Department</td> -->
         </tr>
       </thead>
       <tbody>
@@ -30,8 +30,8 @@ custom_head_datatables: true
           <td>{{user.first_name}}</td>
           <td>{{user.last_name}}</td>
           <td><a href="MailTo:{{ user.email }}">{{ user.email }}</a></td>
-          <td>{{user.gender}}</td>
-          <td>{{user.department | strip_html | truncatewords: 50 }}</td>
+          <!-- <td>{{user.gender}}</td>
+          <td>{{user.department | strip_html | truncatewords: 50 }}</td> -->
         </tr>
         {% endfor %}
       </tbody>
