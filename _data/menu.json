@@ -5,37 +5,37 @@
       "path": "/"
     },
     {
-      "text": "Directory",
+      "text": "Directorio",
       "path": "/directory/"
     },
     {
-      "text": "Gallery",
+      "text": "Fotos",
       "path": "/gallery/"
     },
     {
-      "text": "News",
+      "text": "Noticias",
       "path": "/news/"
     },
     {
-      "text": "Contact",
+      "text": "Contacto",
       "path": "/contact/"
     },
     {
-      "text": "Data",
+      "text": "Estadísticas",
       "path": "/data/"
     },
     {
-      "text": "Documents",
+      "text": "Documentos",
       "path": "/docs/"
     }
   ],
   "left": [
     {
-      "text": "Home",
+      "text": "Inicio",
       "path": "/"
     },
     {
-      "text": "Directory",
+      "text": "Directorio",
       "path": "/directory/"
     }
   ]
