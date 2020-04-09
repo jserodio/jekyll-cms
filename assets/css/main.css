@@ -321,7 +321,7 @@ code, pre {
 }
 
 header {
-  background: #1000f7;
+  background: #fff;
   padding: 20px 0;
 }
 
@@ -344,7 +344,7 @@ header .navbar-default .navbar-nav {
 }
 
 header .navbar-default .navbar-nav li a {
-  color: #272aaa;
+  color: #333333;
   padding: 10px 26px;
   font-size: 15px;
   font-weight: bold;
