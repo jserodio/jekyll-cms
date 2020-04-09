@@ -1,9 +1,9 @@
-name: Xan Fdez Roca
-address_full: Alcala de Henares
-address_street: Alcala de Henares
-address_city: Madrid
-phone_primay: '+34679628926'
-phone_secondary: '+34679628926'
-fax: '+34679628926'
-email_primary: sammet99@hotmail.com
-google_maps_api_key: AIzaSyDjns25WLcdlxkrOUFfOm_wJ64YQz1Nw90
+Nombre: Xan Fdez Roca
+Dirección: Alcala de Henares
+# address_street: Alcala de Henares
+# address_city: Madrid
+Telefono: '+34679628926'
+# phone_secondary: '+34679628926'
+# fax: '+34679628926'
+Email: sammet99@hotmail.com
+# google_maps_api_key: AIzaSyDjns25WLcdlxkrOUFfOm_wJ64YQz1Nw90
