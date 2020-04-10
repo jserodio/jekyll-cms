@@ -2,8 +2,8 @@
 layout: page
 title: Data
 permalink: /data/
-headerTitle: data
-headerSubCopy: Maintain Charts with Netlify CMS
+headerTitle: Datos
+headerSubCopy: Unos pequeños datos sobre mi evolución como Entrenador Personal
 ---
 
 {% include global-header.html %}
@@ -14,53 +14,53 @@ headerSubCopy: Maintain Charts with Netlify CMS
 <section id="portfolio-work">
     <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <h1>Chart Data</h1>
-            <p>Use the Netlify CMS to maintain a  chartdata.yaml file which is used to build this chart.</p>
+            <div class="col-md-12">
+                <h1>Progresión de Entrenamientos Personales</h1>
+                <p>Gráfica con la progresion de entrenamientos personales semanales</p>
 
-             <canvas id="canvas"></canvas>
-          </div>
+                <canvas id="canvas"></canvas>
+            </div>
         </div>
     </div>
 </section>
 
 
 <script>
-var chartData = {
-            labels: [
+    var chartData = {
+        labels: [
             {% for item in site.data.chartdata.sales %}
-                "{{item.label}}",
-            {% endfor %}
+    "{{item.label}}",
+        {% endfor %}
                 ],
-            datasets: [{
-                label: 'Sales',
-                borderWidth: 1,
-                data: [
-                {% for item in site.data.chartdata.sales %}
+    datasets: [{
+        label: 'Sales',
+        borderWidth: 1,
+        data: [
+            {% for item in site.data.chartdata.sales %}
                 "{{item.value}}",
-                {% endfor %}
+    {% endfor %}
 
-                ]
+    ]
             }]
 
         };
 
-window.onload = function() {
-    var ctx = document.getElementById("canvas").getContext("2d");
-    window.myBar = new Chart(ctx, {
-        type: 'line',
-        data: chartData,
-        options: {
-            responsive: true,
-            legend: {
-                position: 'top',
-            },
-            title: {
-                display: true,
-                text: 'Chart.js Example'
+    window.onload = function () {
+        var ctx = document.getElementById("canvas").getContext("2d");
+        window.myBar = new Chart(ctx, {
+            type: 'line',
+            data: chartData,
+            options: {
+                responsive: true,
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'Chart.js Example'
+                }
             }
-        }
-    });
+        });
 
-};
+    };
 </script>
