@@ -17,41 +17,30 @@ headerImage: https://picsum.photos/1600/370
       <div class="col-md-6 col-sm-12">
         <div class="block">
           <h2>Contacta conmigo</h2>
-          <form action="/thankyou/" netlify name="contact-form">
+          <form action="/thankyou/" netlify name="contacto" data-netlify="true">
             <div class="form-group">
               <label for="contact-name">Nombre</label>
-              <input type="text" class="form-control" id="contact-name" name="contact-name" placeholder="Nombre">
+              <input type="text" class="form-control" id="contact-name" name="nombre" placeholder="Nombre">
             </div>
             <div class="form-group">
               <label for="contact-email">Dirección de correo</label>
-              <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Email">
+              <input type="email" class="form-control" id="contact-email" name="email" placeholder="Email">
             </div>
             <div class="form-group">
-              Información:
-              <textarea class="form-control" rows="3"></textarea>
+              <label for="informacion">Información</label>
+              <textarea name="informacion" class="form-control" id="informacion" rows="3"></textarea>
             </div>
-            <select class="form-control">
+            <label for="tipo-consulta">Tipo de consulta</label>
+            <select name="tipo-consulta" class="form-control">
               <option>Entrenamientos</option>
               <option>Precios</option>
               <option>Disponibilidad</option>
               <option>Otras consultas</option>
             </select>
-            <!-- <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                Option one
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                Option two
-              </label>
-            </div> -->
             <div class="form-group">
               <div class="checkbox">
                 <label>
-                  <input type="checkbox" required> Acepto términos de uso
+                  <input type="checkbox" required /> Aceptar términos de uso.
                 </label>
               </div>
             </div>
@@ -77,13 +66,13 @@ headerImage: https://picsum.photos/1600/370
             </ul>
 
             <p>
-              <ul class="social-icons">
-                {% for item in site.data.social_media %}
-                <li>
-                  <a href="{{item.link}}" title="{{item.name}}"><i class="fa {{item.icon}}"></i></a>
-                </li>
-                {% endfor %}
-              </ul>
+            <ul class="social-icons">
+              {% for item in site.data.social_media %}
+              <li>
+                <a href="{{item.link}}" title="{{item.name}}"><i class="fa {{item.icon}}"></i></a>
+              </li>
+              {% endfor %}
+            </ul>
             </p>
 
           </div>
