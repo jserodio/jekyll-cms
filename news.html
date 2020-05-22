@@ -11,11 +11,12 @@ custom_head_owl: true
 
 
 <div class="container">
+  <!--
   <p>Todo lo que necesitas saber de nutrición!</p>
   <div class="well">
-    <!-- Show people static sites can contain live informaiton!!! -->
     {% include next-launch.html %}
   </div>
+  -->
   {% for post in site.posts %}
   <div class="post-area">
     <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
